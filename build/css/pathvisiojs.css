@@ -1,5 +1,5 @@
-//! pathvisiojs 0.9.6
-//! Built on 2014-01-28
+//! pathvisiojs 0.9.8
+//! Built on 2014-01-30
 //! https://github.com/wikipathways/pathvisiojs
 //! License: http://www.apache.org/licenses/LICENSE-2.0/
 
@@ -74,7 +74,7 @@ body {
 }
 
 .tt-dropdown-menu {
-  width: 422px;
+  width: 220px;
   margin-top: 12px;
   padding: 8px 0;
   background-color: #fff;
@@ -102,6 +102,7 @@ body {
 
 .tt-suggestion p {
   margin: 0;
+  text-align: left;
 }
 
 #diagram-container {
