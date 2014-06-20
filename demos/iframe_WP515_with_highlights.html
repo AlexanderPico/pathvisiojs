@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html style="margin: 0; width: 100%; height: 100%; ">
   <head>
     <meta charset="utf-8">
@@ -9,15 +10,6 @@
   </head>
 
   <body style="margin: 0; width: 100%; height: 100%; ">
-<?php
-$label = 'ALD6';
-$wp_rest_url = 'http://www.wikipathways.org/wpi/webservice/webservice.php/findPathwaysByText?query='.$label; 
-$wp_obj = simplexml_load_file($wp_rest_url); 
-
-$pathway_ids = $wp_obj->xpath('ns1:result/ns2:id');
-
-echo '<iframe src="http://www.wikipathways.org/wpi/PathwayWidget.php?id='.$pathway_ids[0].'&label='.$label.'&colors=red" width="850" height="600" />';
-
-?>
+<iframe src="http://www.wikipathways.org/wpi/PathwayWidget.php?id=WP515&label=PGK1&colors=red" width="850" height="600" />
 </body>
 </html>
